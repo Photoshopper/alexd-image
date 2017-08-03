@@ -1,0 +1,23 @@
+{
+    "name": "alexd/image",
+    "description": "Image Manager for using in forms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Denysiuk",
+            "email": "denysiuk1989@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "bkwld/croppa": "~4.0",
+        "intervention/image": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alexd\\Image\\": "/src"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+input[type=file].input-file-bordered {
+    display:inline;
+    vertical-align: top;
+    padding:3px 2px;
+    border: 1px solid #cccccc;
+}
+
+.ui-sortable-placeholder {
+    height:117px;
+}
+
+.handle {
+    cursor: pointer;
+}
